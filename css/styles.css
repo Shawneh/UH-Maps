@@ -1,0 +1,113 @@
+a {
+    font-family: 'Montserrat' !important;
+    text-decoration: underline;
+    color: #5bb674
+}
+
+body {
+    margin: 0;
+}
+
+a:hover {
+    opacity: .7;
+}
+
+#viewDiv {
+    min-height: 100% !important;
+    height: 100vh;
+    min-width: 96vw;
+    margin: 0 auto;
+}
+
+
+div .esri-popup, 
+.esri-popup--shadow {
+    border-radius: 12px;
+}
+
+div.esri-legend__layer-body:first-child {
+    margin-left: 0;
+}
+
+div.esri-legend__service:nth-child(2) 
+div div div.esri-legend__layer-body 
+div.esri-legend__layer-row:first-child {
+    display: none;
+}
+
+.esri-expand__container,
+.esri-expand__container--expanded {
+    background: transparent !important;
+}
+
+.esri-legend__layer-cell--info {
+    display: none !important;
+}
+
+.esri-feature__media-item-title {
+    display: none;
+}
+
+.esri-legend {
+    background-color: #595959;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.esri-legend__layer-caption {
+    display: none;
+}
+
+.esri-widget__heading {
+    color: #fff;
+}
+
+.esri-view-height-less-than-medium {
+    max-height: unset;
+}
+
+.esri-popup__main-container {
+    border-radius: 12px;
+    max-height: unset !important;
+}
+
+.esri-pop__main-content {
+    max-height: none;
+}
+
+.esri-popup__feature-buttons,
+.esri-popup__actions {
+    display: none;
+}
+
+.esri-feature__content-element {
+    padding: 0;
+}
+
+.esri-feature__media-item img {
+    max-width: 100% !important;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.esri-feature__media-container {
+    max-height: none;
+    margin-top: 0;
+    width: unset;
+}
+
+.esri-popup__content {
+    margin: 0;
+    overflow: visible;
+    overflow-x: visible;
+}
+
+img.partner-img {
+    object-fit: contain;
+    height: 48px;
+}
+
+a.partner-link {
+    padding: 14px 0px 0px 8px;
+    font-weight: bold;
+}

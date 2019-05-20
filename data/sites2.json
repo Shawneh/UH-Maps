@@ -1,0 +1,98 @@
+{
+	"type": "FeatureCollection",
+	"name": "UH Farm Sites",
+	"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+	"features": [
+		{ 
+			"type": "Feature", 
+			"properties": { 
+				"Name": "<a href='https://www.urbanharveststl.org/food-roof-farm-1/' target='_top'>FOOD ROOF Farm</a>",
+				"description": "FoodRoofFarm", 
+				"information":  "Testing",
+				"image": "https://i.imgur.com/WZ8uWwi.jpg" 
+			}, 
+			"geometry": { 
+				"type": "Point", 
+				"coordinates": [ -90.1980205, 38.633941, 0.0 ]
+			} 
+		},
+		{ 
+			"type": "Feature", 
+			"properties": {
+				"Name": "<a href='https://www.urbanharveststl.org/fresh-starts-community-garden-2/' target='_top'>Fresh Starts Community Garden</a>",
+				"description": "FreshStarts",
+				"information":  "Testing",
+				"image": "https://i.imgur.com/FNLZug7.jpg" 
+			}, 
+			"geometry": { 
+				"type": "Point", 
+				"coordinates": [ -90.2178557, 38.6423165, 0.0 ] 
+			} 
+		},
+		{ 
+			"type": "Feature", 
+			"properties": { 
+				"Name": "<a href='https://www.urbanharveststl.org/flance-school-garden-1/' target='_top'>School Garden: Flance Early Learning Center</a>",
+				"description": "Flance",
+				"information":  "Testing",
+				"image": "https://i.imgur.com/4yFhGnW.jpg" 
+			}, 
+			"geometry": { 
+				"type": "Point", 
+				"coordinates": [ -90.2043537, 38.6403565, 0.0 ] 
+			}
+		},
+		{ 
+			"type": "Feature", 
+			"properties": { 
+				"Name": "<a href='https://www.urbanharveststl.org/kerr-food-roof-2/' target='_top'>Kerr FOOD ROOF</a>",
+				"description": "Kerr",
+				"information":  "Testing",
+				"image": "https://i.imgur.com/xJY6SD3.jpg" 
+			}, 
+			"geometry": { 
+				"type": "Point", 
+				"coordinates": [ -90.1819729, 38.6374365, 0.0 ] 
+			} 
+		},
+		{
+			"type": "Feature", 
+			"properties": { 
+				"Name": "<a href='https://www.urbanharveststl.org/zack-food-roof/' target='_top'>Sally's Rooftop Garden & Terrace</a>",
+				"description": "Sally",
+				"information":  "Testing",
+				"image": "https://i.imgur.com/c5UBJ6M.jpg" 
+			}, 
+			"geometry": { 
+				"type": "Point", 
+				"coordinates": [ -90.226299, 38.6365159, 0.0 ] 
+			}
+		},
+		{
+			"type": "Feature", 
+			"properties": { 
+				"Name": "<a href='https://www.urbanharveststl.org/stadium-garden/' target='_top'>Busch Stadium</a>",
+				"description": "Stadium",
+				"information":  "Testing",
+				"image": "https://i.imgur.com/jiBF6ho.jpg" 
+			}, 
+			"geometry": { 
+				"type": "Point", 
+				"coordinates": [ -90.1928209, 38.6226188, 0.0 ] 
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { 
+				"Name": "<a href='https://www.urbanharveststl.org/armin-orchard' target='_top'>Armin Orchard</a>",
+				"description": "Armin Orchard",
+				"information":  "Testing",
+				"image": "https://i.imgur.com/3lEeJU5.jpg" 
+			},
+			"geometry": { 
+				"type": "Point", 
+				"coordinates": [ -90.2772912, 38.5513807, 0.0 ]
+			}
+		}
+	]
+}
