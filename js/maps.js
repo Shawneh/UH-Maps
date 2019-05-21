@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', buildMap());
 // buildPartnerContainer()
 
 var partnerList = [{
-        name: 'Fit and Food',
+        name: 'The Fit and Food Connection',
         logo: './assets/images/FitFoodConnection.png',
         link: 'https://fitandfoodconnection.org/'
     }, {
@@ -51,6 +51,9 @@ function buildMap() {
 
             var featureLayer1 = webmap.layers.getItemAt(0);
             var featureLayer2 = webmap.layers.getItemAt(5);
+            
+            // Boolean value that stores if legend expand
+            // was expanded - for the resize event listener
             var legendWasExpanded;
 
             var legend = new Expand({
@@ -177,7 +180,7 @@ function buildPartnerContainer() {
 function checkDeviceWidth(panelName) {
     switch(panelName) {
         case 'legend':
-            return window.innerWidth >= 545 ? true : false;
+            return window.innerWidth >= 600 ? true : false;
         case 'partner':
             return window.innerWidth >= 800 ? true : false;
         default:
