@@ -22,9 +22,8 @@ function buildMap() {
     'esri/views/MapView',
     'esri/widgets/Legend',
     'esri/widgets/Expand',
-    'esri/widgets/Fullscreen',
     'esri/WebMap'
-    ], function (MapView, Legend, Expand, Fullscreen, WebMap) {
+    ], function (MapView, Legend, Expand, WebMap) {
         var webmap = new WebMap({
             portalItem: {
                 id: '0ced23678d1f4084b0ec31d3e91a4b35'
@@ -115,11 +114,6 @@ function buildMap() {
                     }
                 }
             })
-        }).then(() => {
-            fullscreen = new Fullscreen({
-                view: view
-            });
-            view.ui.add(fullscreen, 'top-left');
         });
     });
 }
@@ -160,6 +154,7 @@ function buildPartnerContainer() {
         containerLayerRowName.classList = 'partner-link';
         containerLayerRowName.href = partner.link;
         containerLayerRowName.innerHTML = partner.name;
+        containerLayerRowName.target = '_top';
 
         containerLayerRow.appendChild(containerLayerRowImg);
         containerLayerRow.appendChild(containerLayerRowName);
