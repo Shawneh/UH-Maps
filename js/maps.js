@@ -8,10 +8,6 @@ var partnerList = [{
         logo: './assets/images/FitFoodConnection.png',
         link: 'https://fitandfoodconnection.org/'
     }, {
-        name: 'St. Louis Metro Market',
-        logo: './assets/images/MetroMarket.png',
-        link: 'https://www.stlmetromarket.com/'
-    }, {
         name: 'St. Patrick Center',
         logo: './assets/images/StPatrickCenter.png',
         link: 'http://stpatrickcenter.org/'
